@@ -1,0 +1,58 @@
+* {
+    margin: 3;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Apple-Store-list-item {
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(85, 83, 83);
+    position: relative;
+    margin: 25px 5px 5px 5px;
+    padding: 15px 0px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
+.name {
+    position: absolute;
+    width: inherit;
+    left: 0;
+    top: -35px;
+    text-align: center;
+    font-size: 25px;
+}
+.Apple-Store-list-item:hover {
+        box-shadow: 0 0 5px red;
+    }
+
+
+.box-img {
+    width: 65%;
+    height: 65%;
+    margin:25px ;
+}
+
+.box-icon {
+    position: absolute;
+    top: 0;
+    width: 6rem;
+    right: 0;
+}
+
+.box-pride {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 50px;
+
+}
+
+.box-action {
+    position: absolute;
+    width: 25px;
+    bottom: 5px;
+    right: 8px;
+}
